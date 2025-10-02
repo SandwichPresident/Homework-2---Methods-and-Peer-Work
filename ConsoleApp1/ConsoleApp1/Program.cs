@@ -26,16 +26,16 @@ namespace ConsoleApp1
             Console.WriteLine("Sam's favorite number is " + samNum);
             Console.WriteLine("Vicky's favorite number is " + vickyNum);
 
-            private int subtractNums(int num1, int num2)
+             int subtractNums(int num1, int num2)
             {
                 return num1 - num2;
             }
 
             //start of our actual program
             int sumNum = addNums(samNum, vickyNum);
-            Console.WriteLine("The sum of Sam and Vicky's favorite numbers is " + sumNum);
+            Console.WriteLine("The sum of Sam's and Vicky's favorite numbers is " + sumNum);
             int difference = subtractNums(samNum, vickyNum);
-            Console.WriteLine("The difference of Sam and Vicky's favorite numbers is " + difference);
+            Console.WriteLine("The difference of Sam's and Vicky's favorite numbers is " + difference);
 
         }  
     }
