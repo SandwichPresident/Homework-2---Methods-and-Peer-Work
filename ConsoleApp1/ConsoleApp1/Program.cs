@@ -4,7 +4,13 @@
     {
         static void Main(string[] args)
         {
-            int samNum = 24;
+            int samNum;
+
+
+
+
+            //Initialize
+            samNum = 24;
         }
     }
 }
