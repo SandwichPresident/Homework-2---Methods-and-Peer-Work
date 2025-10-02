@@ -5,12 +5,15 @@
         static void Main(string[] args)
         {
             int samNum;
+            int vickyNum;
 
 
 
 
             //Initialize
             samNum = 24;
+
+            vickyNum = 4;
         }
     }
 }
