@@ -9,6 +9,12 @@ namespace ConsoleApp1
 {
     internal class Program
     {
+        /// <summary>
+        ///     A func that adds two numbers together
+        /// </summary>
+        /// <param name="num1"></param>
+        /// <param name="num2"></param>
+        /// <returns></returns>
         private static int addNums(int num1, int num2)
         {
             return num1 + num2;
