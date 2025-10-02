@@ -1,4 +1,9 @@
-﻿namespace ConsoleApp1
+﻿/* Student Names: Vicky Nguyen and Sam Booth
+IGME.201.01 - Interac Des & Alg Prob Sol III
+Due: 10/12/25
+ */
+
+namespace ConsoleApp1
 {
     internal class Program
     {
