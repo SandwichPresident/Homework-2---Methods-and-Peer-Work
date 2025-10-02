@@ -3,13 +3,13 @@
  * Due: 10/12/25
  */
 
+using System;
+
 namespace ConsoleApp1
 {
     internal class Program
     {
-
-
-        private static int addNums (int num1, int num2)
+        private static int addNums(int num1, int num2)
         {
             return num1 + num2;
         }
@@ -19,20 +19,19 @@ namespace ConsoleApp1
             int samNum;
             int vickyNum;
 
-            Console.WriteLine("Sam's favorite number is " + samNum);
-            Console.WriteLine("Vicky's favorite number is " + vickyNum);
-
             //Initialize
             samNum = 24;
             vickyNum = 4;
 
-            private int subtractNums(int num1, int num2)
+            Console.WriteLine("Sam's favorite number is " + samNum);
+            Console.WriteLine("Vicky's favorite number is " + vickyNum);
+
+            int subtractNums(int num1, int num2)
             {
                 return num1 - num2;
             }
-
-            //start of our actual program
-
         }
+
+        //start of our actual program
     }
 }
