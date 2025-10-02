@@ -32,7 +32,7 @@ namespace ConsoleApp1
             Console.WriteLine("Sam's favorite number is " + samNum);
             Console.WriteLine("Vicky's favorite number is " + vickyNum);
 
-             int subtractNums(int num1, int num2)
+            int subtractNums(int num1, int num2)
             {
                 return num1 - num2;
             }
