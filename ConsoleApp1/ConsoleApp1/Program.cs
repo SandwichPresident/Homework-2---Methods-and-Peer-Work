@@ -31,7 +31,8 @@ namespace ConsoleApp1
                 return num1 - num2;
             }
             //start of our actual program
-            Console.WriteLine("The sum of Sam and Vicky's favorite numbers is " + addNums(samNum, vickyNum));
+            int sumNum = addNums(samNum, vickyNum);
+            Console.WriteLine("The sum of Sam and Vicky's favorite numbers is " + sumNum);
 
         }
 
