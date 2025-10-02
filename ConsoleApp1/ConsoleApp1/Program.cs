@@ -19,6 +19,9 @@ namespace ConsoleApp1
             int samNum;
             int vickyNum;
 
+            Console.WriteLine("Sam's favorite number is " + samNum);
+            Console.WriteLine("Vicky's favorite number is " + vickyNum);
+
             //Initialize
             samNum = 24;
             vickyNum = 4;
@@ -28,7 +31,7 @@ namespace ConsoleApp1
                 return num1 - num2;
             }
 
-        //start of our actual program
+            //start of our actual program
 
         }
     }
